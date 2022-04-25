@@ -42,7 +42,7 @@ module.exports.saveForm = async (req, res, next) => {
       date,
       noGuests,
     });
-    client.setApiKey("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");
+    client.setApiKey("");
     client
       .send({
         to: {
