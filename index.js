@@ -15,7 +15,7 @@ app.listen(4000, (err) => {
 });
 
 const dbName = "restaurant";
-const secret = "QD2hbJ8zi5j4AFZo";
+const secret = "";
 const uri = `mongodb+srv://steak111:${secret}@cluster.cql6r.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
 mongoose
